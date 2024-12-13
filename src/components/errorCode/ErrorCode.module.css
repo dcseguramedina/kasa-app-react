@@ -1,0 +1,16 @@
+/* ErrorCode */
+
+.error_code {
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 142.6%;
+
+    color: #ff6060;
+}
+
+@media only screen and (max-width: 768px) {
+    .error_code {
+        font-size: 96px;
+        line-height: 142.6%;
+    }
+}

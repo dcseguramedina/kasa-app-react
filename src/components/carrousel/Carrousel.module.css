@@ -1,0 +1,81 @@
+/* Carrousel */
+
+.carrousel {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+    border-radius: 25px;
+}
+
+.carrousel_image {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+
+    object-fit: cover;
+
+    border-radius: 25px;
+}
+
+.carrousel_vector_left {
+    width: 5%;
+    height: 15%;
+
+    position: absolute;
+    left: 2%;
+    top: 42%;
+
+    background-image: url('../../assets/vector_left.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.carrousel_vector_left:hover {
+    cursor: pointer;
+}
+
+.carrousel_vector_right {
+    width: 5%;
+    height: 15%;
+
+    position: absolute;
+    right: 2%;
+    top: 42%;
+
+    background-image: url('../../assets/vector_right.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.carrousel_vector_right:hover {
+    cursor: pointer;
+}
+
+.carrousel_count {
+    width: 2%;
+    height: 8%;
+
+    position: absolute;
+    left: 48.5%;
+    bottom: 2%;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .carrousel {
+        border-radius: 10px;
+    }
+
+    .carrousel_image {
+        border-radius: 10px;
+    }
+}

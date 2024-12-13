@@ -1,0 +1,16 @@
+/* Return */
+
+.return {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+
+  color: #ff6060;
+}
+
+@media only screen and (max-width: 768px) {
+  .return {
+    font-size: 14px;
+    line-height: 142.6%;
+  }
+}

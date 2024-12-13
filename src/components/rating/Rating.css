@@ -1,0 +1,52 @@
+/* Rating */
+
+.rating {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.grey_star {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    margin-left: 5%;
+
+    background-image: url('../../assets/grey_star.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.red_star {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    margin-left: 5%;
+
+    background-image: url('../../assets/red_star.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .rating {
+        justify-content: left;
+    }
+
+    .grey_star {
+        width: 14px;
+        height: 14px;
+        margin: 0;
+        margin-right: 3%;
+    }
+
+    .red_star {
+        width: 14px;
+        height: 14px;
+        margin: 0;
+        margin-right: 3%;
+    }
+}

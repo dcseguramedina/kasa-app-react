@@ -1,0 +1,37 @@
+/* Tag */
+
+.tag {
+    width: auto;
+    height: auto;
+    margin: 0;
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    padding-left: 4%;
+    padding-top: 0.5%;
+    padding-right: 4%;
+    padding-bottom: 0.5%;
+
+    background: #FF6060;
+
+    border-radius: 10px;
+}
+
+.tag_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .tag {
+        border-radius: 5px;
+    }
+
+    .tag_text {
+        font-size: 10px;
+    }
+}
